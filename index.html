@@ -2,7 +2,7 @@
 <body>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-<div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
+<div id="sankey_multiple" style="width: 1500px; height: 800px;"></div>
 
 <script type="text/javascript">
   google.charts.load("current", {packages:["sankey"]});
@@ -13,21 +13,21 @@
     data.addColumn('string', 'To');
     data.addColumn('number', 'Votes');
     data.addRows([
-       [ 'TOTAL', 'Bacik R1', 7938 ],
-       [ 'TOTAL', 'Barrett R1', 176 ],
-       [ 'TOTAL', 'Boylan R1', 4135 ],
-       [ 'TOTAL', 'Byrne R1', 2076 ],
-       [ 'TOTAL', 'Cahill R1', 173 ],
-       [ 'TOTAL', 'Conroy R1', 1258 ],
-       [ 'TOTAL', 'Dooley R1', 252 ],
-       [ 'TOTAL', 'Durcan R1', 823 ],
-       [ 'TOTAL', 'Flynn R1', 838 ],
-       [ 'TOTAL', 'Geogheggan R1', 6861 ],
-       [ 'TOTAL', 'Gilbourne R1', 159 ],
-       [ 'TOTAL', 'Keigher R1', 25 ],
+       [ 'TOTAL', 'Bacik R1', 8131 ],
+       [ 'TOTAL', 'Barrett R1', 183 ],
+       [ 'TOTAL', 'Boylan R1', 4245 ],
+       [ 'TOTAL', 'Byrne R1', 2157 ],
+       [ 'TOTAL', 'Cahill R1', 169 ],
+       [ 'TOTAL', 'Conroy R1', 1247 ],
+       [ 'TOTAL', 'Dooley R1', 261 ],
+       [ 'TOTAL', 'Durcan R1', 849 ],
+       [ 'TOTAL', 'Flynn R1', 879 ],
+       [ 'TOTAL', 'Geogheggan R1', 7052 ],
+       [ 'TOTAL', 'Gilbourne R1', 164 ],
+       [ 'TOTAL', 'Keigher R1', 23 ],
        [ 'TOTAL', 'O\u0027Keeffe R1', 23 ],
-       [ 'TOTAL', 'Purcell R1', 708 ],
-       [ 'TOTAL', 'Tóibín R1', 716 ],
+       [ 'TOTAL', 'Purcell R1', 759 ],
+       [ 'TOTAL', 'Tóibín R1', 740 ],
     ]);
 
     // Set chart options
@@ -35,7 +35,6 @@
                   '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
 
     var options = {
-      height: 400,
       sankey: {
         node: {
           colors: colors
